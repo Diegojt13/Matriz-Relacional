@@ -1,0 +1,76 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(130, 0, 0);
+
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container div {
+    margin-bottom: 10px;
+}
+
+#matrix-container {
+    margin-top: 20px;
+}
+
+#matrix-container table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#matrix-container table td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#graph-container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+legend {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #5300cf;
+}
